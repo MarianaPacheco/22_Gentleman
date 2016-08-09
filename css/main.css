@@ -83,7 +83,7 @@ a:hover>.li-menu2{		/*Cambia a bold la letra del menú cuando pasas el cursor en
 }
 
 hr{
-	margin:5% 0% 10% 0%;
+	margin:5% 0% 5% 0%;
 	border:2px dotted #888;
 }
 
@@ -91,4 +91,38 @@ hr{
 	width: 30%;
 	height: 30%;
 	margin: 0% 0% 2% 30%;
+}
+
+.italica{
+	font-style: italic;	
+}
+
+a:visited>p{
+	color:red;
+}
+
+p>a{
+	color: red;
+}
+
+.font-web{
+	font-size: 12px;
+}
+
+.izq{
+	margin-left: 60%;
+}
+
+.icon-margin{
+	width: 8%;
+	height: 8%;
+	border:2px dashed #C1C2C3;
+	padding: 2px 2px;
+	border-radius: 100px;
+	box-sizing: border-box;
+}
+
+.cont{
+	width: 900px;
+	height: 900px;
 }
