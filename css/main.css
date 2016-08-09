@@ -1,0 +1,94 @@
+
+.fw-normal{
+	font-weight: normal;
+}
+
+h1{
+	font-size: 40px;
+	margin-left: 20%;
+}
+
+.li-menu{		/* Estilos del menu */
+	margin: 13px 0px 0px 60px;
+	display: inline-block;
+	font-size: 18px; 
+}
+
+.ul-menu{
+	margin-left: 30%;
+}
+
+.image{
+	width: 100%;
+	height: 80%;
+}
+
+.boton{			/* Boton read more */
+ 	background-color:#888;
+ 	padding: 10px;
+ 	color: #fff;
+ 	width: 30%;
+ 	border-radius:20px;
+ 	border:2px solid #888;
+ 	cursor: pointer;
+ }
+
+ a:hover{
+ 	color:red;
+ }
+
+ .size-menu{
+	font-size: 14px;
+ }
+
+ .contenedor{
+	width: 100%;
+	height: 100%;
+ }
+
+.bg-image{		/* Background image */
+	background-image: url("../img/main-pic.png");
+ 	height: 200px;
+ 	background-position: center top; 
+ 	background-size: cover;
+	background-repeat: no-repeat;
+ }
+
+ #boton-grande{
+	width: 13%;
+	display: block;
+	margin: auto; 
+	margin-top: 5%;
+}
+
+.boton-follow{
+	background-color:#888;
+ 	padding: 5px;
+ 	color: #fff;
+ 	width: 20%;
+ 	border-radius:2px;
+ 	border:2px solid #888;
+ 	cursor: pointer;
+ 	font-size: 10px;
+}
+
+.li-menu2{		/* Estilos del menu */
+	margin: 10px 10px 0px 0px;
+	display: inline-block;
+	font-size: 14px; 
+}
+
+a:hover>.li-menu2{		/*Cambia a bold la letra del menú cuando pasas el cursor encima */
+	font-weight: bold;
+}
+
+hr{
+	margin:5% 0% 10% 0%;
+	border:2px dotted #888;
+}
+
+.icon-tw{		/*icono twitter*/
+	width: 30%;
+	height: 30%;
+	margin: 0% 0% 2% 30%;
+}

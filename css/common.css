@@ -1,0 +1,35 @@
+.bg-gray-dark{
+	background-color:#888;
+}
+
+*{
+	font-family: sans-serif;
+}
+
+.pd-2{
+	padding: 2%;
+}
+
+a{		/* Links sin decoracion */
+	text-decoration: none;
+}
+
+a:visited{
+	color:#fff;
+}
+
+.bg-white{
+	background-color: #fff;
+}
+
+.mt-2{
+	margin-top: 2%;
+}
+
+.mt-10{
+	margin-top: 10%;
+}
+
+.ml-30{
+	margin-left: 30%;
+}
