@@ -14,19 +14,20 @@
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/main.css"> 
   <link rel="shortcut icon" href="favicon.ico">
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <header>
     <div class="container-fluid bg-gray-dark pd-2">
       <div class="row">
         <div class="col-4">     <!-- Título principal -->
-          <h1 class="text-white fw-normal">The <strong>Gentleman</strong></h1>
+          <h1 class="text-white fw-normal titulo2">The <strong class="titulo">Gentleman</strong></h1>
         </div>
         <div class="col-8>
           <nav>
               <ul class="ul-menu">
                   <a href=""><li class="li-menu">Home</li></a>  <!-- Home -->
-                  <a href=""><li class="li-menu">Portfolio</li></a>  <!-- Portfolio -->
+                  <a href="#portfolio"><li class="li-menu">Portfolio</li></a>  <!-- Portfolio -->
                   <a href=""><li class="li-menu">Services</li></a>  <!-- Services -->
                   <a href=""><li class="li-menu">Blog</li></a>  <!-- Blog -->
                   <a href=""><li class="li-menu">Features</li></a>  <!-- Features -->
@@ -73,7 +74,7 @@
       <div class="container bg-white">
         <div class="row">
           <div class="col-10">    <!-- Título sección -->
-            <h2 class="pt-5 text-gray">LATEST PROJECTS</h2>
+            <a name="portfolio"><h2 class="pt-5 text-gray">LATEST PROJECTS</h2>
           </div>
           <div class="col-2">   <!-- Icono miniaturas -->
             <img class="pd-10" src="img/miniaturas.png" alt="miniaturas">
@@ -203,17 +204,17 @@
   <section>       <!-- Inicia section gris -->
     <div class="container-fluid bg-gray-dark pt-5 mt-5">
       <div class="row">
-        <div class="col-4"> 
-            <!-- The Gentleman -->
+        <div class="col-4"> <!-- The Gentleman -->
+
           <div class="row">
-            <h3 class="izq text-gray-light fw-normal">The <strong>Gentleman</strong></h3>
+            <h3 class="izq text-gray-light fw-normal titulo2">The <strong class="titulo">Gentleman</strong></h3>
           </div>
           <div class="row ml-52">
             <a href="https://www.facebook.com/"><img class="icon-margin" id="icon-left" src="img/social/facebook.png" alt="facebook"></a> <!-- icono redes sociales -->
-          <a href="https://twitter.com/?lang=es"><img class="icon-margin" src="img/social/twitter.png" alt="twitter"></a> <!-- icono redes sociales -->
-          <a href="https://mx.linkedin.com/"><img class="icon-margin" src="img/social/linkedin.png" alt="linkedin"></a> <!-- icono redes sociales -->
-          <a href="https://es.pinterest.com/"><img class="icon-margin" src="img/social/pinterest.png" alt="pinterest"></a>  <!-- icono redes sociales -->
-          <a href="https://plus.google.com/"><img class="icon-margin" src="img/social/google.png" alt="google"></a> <!-- icono redes sociales -->
+            <a href="https://twitter.com/?lang=es"><img class="icon-margin" src="img/social/twitter.png" alt="twitter"></a> <!-- icono redes sociales -->
+            <a href="https://mx.linkedin.com/"><img class="icon-margin" src="img/social/linkedin.png" alt="linkedin"></a> <!-- icono redes sociales -->
+            <a href="https://es.pinterest.com/"><img class="icon-margin" src="img/social/pinterest.png" alt="pinterest"></a>  <!-- icono redes sociales -->
+            <a href="https://plus.google.com/"><img class="icon-margin" src="img/social/google.png" alt="google"></a> <!-- icono redes sociales -->
           </div>
         </div>
         <div class="col-4">     <!-- Párrafo -->
@@ -234,26 +235,78 @@
           </div>
         </div>
       </div>
-      <hr>
-      <div class="row"> 
-        <div class="cont ml-15">  
-          <div class="col-3">   <!-- clients -->
-            <div class="row">   <!-- clients -->
-              <p class="pd-5 text-gray-light">Clients</p>
+      <hr class="hr-light">
+      <div class="cont ml-15">
+        <div class="row">
+          <div class="col-3">
+            <div class="row">   <!-- Clients -->
+              <p class="chiquito text-gray-light mb-10 p-cont">Clients</p>
             </div>
-            <div class="row">   <!-- text -->
-              <p class="pd-5 text-gray-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae.</p>
+            <div class="row">   <!-- subtitulo 1 -->
+              <p class="chiquito text-gray-light mb-2">Oliviu - webmaster design</p>
             </div>
-            <div class="row">   <!-- text -->
-              <p class="pd-5 text-gray-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae.</p>
+            <div class="row">   <!-- p1 -->
+              <p class="chiquito text-gray-light mb-2"><span class="comillas"> " </span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, cumque.</p>
+            </div>
+            <div class="row">   <!-- subtitulo 2 -->
+              <p class="chiquito text-gray-light mb-2">Oliviu - webmaster design</p>
+            </div>
+            <div class="row">   <!-- p2 -->
+              <p class="chiquito text-gray-light"><span class="comillas"> " </span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, cumque.</p>
             </div>
           </div>
-        </div>
-        <div class="col-3">   <!-- Twitter updates -->
-        </div>
-        <div class="col-3">   <!-- Address -->
-        </div>
-        <div class="col-3">   <!-- Newsletter -->
+          <div class="col-3">
+            <div class="row">   <!-- Clients -->
+              <div class="col-6">
+                <p class="chiquito text-gray-light p-cont mb-10">Twitter updates</p>
+              </div>
+              <div class="col-6">
+                <a href="http://www.google.com"><button id="boton-follow" class="ml-30 boton-follow" type="button" name="more">Follow</button></a>    <!-- Botón follow -->      <!-- Boton -->
+              </div>
+            </div>
+            <div class="row">   <!-- subtitulo 1 -->
+              <p class="chiquito text-gray-light mb-2">Oliviu - webmaster design</p>
+            </div>
+            <div class="row">   <!-- p1 -->
+              <p class="chiquito text-gray-light mb-2"><span class="text-red"> @olivius </span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, cumque.</p>
+            </div>
+            <div class="row">   <!-- subtitulo 2 -->
+              <p class="chiquito text-gray-light mb-2">Oliviu - webmaster design</p>
+            </div>
+            <div class="row">   <!-- p2 -->
+              <p class="chiquito text-gray-light"><span class="text-red"> @olivius </span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, cumque.</p>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="row">   <!-- Clients -->
+              <p class="chiquito text-gray-light p-cont mb-10">Address</p>
+            </div>
+            <div class="row">   <!-- subtitulo 1 -->
+              <p class="chiquito text-gray-light mb-2">Oliviu - webmaster design</p>
+            </div>
+            <div class="row">   <!-- p1 -->
+              <p class="chiquito text-gray-light mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, cumque.</p>
+            </div>
+            <div class="row">   <!-- subtitulo 2 -->
+              <p class="chiquito text-gray-light mb-2">Oliviu - webmaster design</p>
+            </div>
+            <div class="row">   <!-- p2 -->
+              <p class="text-red mt-5">55-60-34-34</p>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="row">   <!-- Clients -->
+              <p class="chiquito text-gray-light p-cont mb-10">Newsletter</p>
+            </div>
+            <div class="row">   <!-- subtitulo 1 -->
+              <form class="mb-2" action="">
+                <input type="text" name="email" placeholder="Your email">  <!-- Caja de texto email -->
+              </form>
+            </div>
+            <div class="row">   <!-- p1 -->
+              <p class="chiquito text-gray-light mb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, cumque.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

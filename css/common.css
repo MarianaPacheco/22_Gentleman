@@ -54,3 +54,20 @@ a:visited{
 .ml-15{
 	margin-left: 15%;
 }
+
+.mb-2{
+	margin-bottom: 2%;
+}
+
+.mb-10{
+	margin-bottom: 10%;
+}
+
+#boton-follow{
+	background-color: orange;
+	width: 100%;
+}
+
+.mt-5{
+	margin-top: 5%;
+}

@@ -1,10 +1,17 @@
+*{
+	font-family: "Oasis", Georgia, Serif;
+}
+
+.titulo2{
+	font-family: 'Source Sans Pro', sans-serif;
+}
 
 .fw-normal{
 	font-weight: normal;
 }
 
 h1{
-	font-size: 40px;
+	font-size: 35px;
 	margin-left: 20%;
 }
 
@@ -126,3 +133,24 @@ p>a{
 	width: 900px;
 	height: 900px;
 }
+
+.chiquito{
+	font-size: 10px;
+}
+
+.hr-light{
+	margin:5% 0% 5% 13%;
+	border:1px solid #C1C2C3;
+	width: 70%;
+}
+
+.comillas{
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.p-cont{
+	font-size:14px; 
+	font-weight: 600;
+}
+
